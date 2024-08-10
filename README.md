@@ -22,17 +22,17 @@ This project involves building a sentiment analysis model for restaurant reviews
 
 ### Historic Data Processing
 
-#### - Dataset: a1_RestaurantReviews_HistoricDump.tsv (900 reviews)
-#### - Preprocessing: Cleaned and tokenized text data, removed stopwords, and applied stemming.
-#### - Feature Extraction: Created BoW dictionary with 1420 features.
-#### - Model Training: Trained a Gaussian Naive Bayes classifier on the processed data.
-#### - Model Performance: Achieved an accuracy of 72.78% on the test set.
+- #### Dataset: a1_RestaurantReviews_HistoricDump.tsv (900 reviews)
+- #### Preprocessing: Cleaned and tokenized text data, removed stopwords, and applied stemming.
+- #### Feature Extraction: Created BoW dictionary with 1420 features.
+- #### Model Training: Trained a Gaussian Naive Bayes classifier on the processed data.
+- #### Model Performance: Achieved an accuracy of 72.78% on the test set.
 
 ### Predicting Sentiments on New Data
 
-#### - Dataset: a2_RestaurantReviews_FreshDump.tsv (100 reviews)
-#### - Preprocessing: Applied the same cleaning and tokenization steps as historic data.
-#### - Prediction: Loaded the pre-trained BoW model and classifier to predict sentiments on the new dataset.
+- #### Dataset: a2_RestaurantReviews_FreshDump.tsv (100 reviews)
+- #### Preprocessing: Applied the same cleaning and tokenization steps as historic data.
+- #### Prediction: Loaded the pre-trained BoW model and classifier to predict sentiments on the new dataset.
 
 ## Dependencies
 - Python 3.x
