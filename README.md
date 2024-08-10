@@ -3,12 +3,12 @@ This project involves building a sentiment analysis model for restaurant reviews
 
 ## Datasets
 ### Historic Dataset (a1_RestaurantReviews_HistoricDump.tsv):
-Contains 900 restaurant reviews with labeled sentiments (0 for negative, 1 for positive).
-Data Format: Tab-separated values with two columns: Review (text) and Liked (label).
+- Contains 900 restaurant reviews with labeled sentiments (0 for negative, 1 for positive).
+- Data Format: Tab-separated values with two columns: Review (text) and Liked (label).
 
 ### Fresh Dataset (a2_RestaurantReviews_FreshDump.tsv):
-Contains 100 new restaurant reviews without sentiment labels.
-Used for predicting sentiments with the trained model.
+- Contains 100 new restaurant reviews without sentiment labels.
+- Used for predicting sentiments with the trained model.
 
 ## Files and Models
 ### Preprocessed Data and Model:
